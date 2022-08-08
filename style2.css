@@ -1,0 +1,155 @@
+@media(max-width:767px){
+	.containerHeader{
+		padding-left: 36px;
+		padding-right: 36px;
+	}
+
+    .header{
+        width: 100%;
+    }
+
+	.linkHeader{
+		width: 70%;
+	}
+
+    .section2{
+        padding-left: 36px;
+		padding-right: 36px;
+    }
+
+    .linkTree{
+        width: 60%;
+    }
+
+	.containerFooter{
+		padding-left: 36px;
+		padding-right: 36px;
+	}
+	.linkFooter{
+		width: 70%;
+	}
+	.socialMedia{
+		width: 25%;
+	}
+	.socialMedia img{
+		width: 40px;
+		height: 40px;
+	}
+    .policy{
+        width: 30%;
+    }
+}
+
+@media(max-width:375px){
+    .containerHeader{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .logo{
+        width: 100%;
+        
+    }
+
+    .logo img{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .containerHeader{
+        flex-direction: column;
+    }
+    .linkHeader{
+        width: 100%;
+       
+    }
+    .linkHeader ul{
+        flex-wrap: wrap;
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    .linkHeader li{
+        width: 49.44%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 1px solid white;
+        font-size: 16px;
+        line-height: 24px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    .section2{
+        display: none;
+    }
+
+    .containerFooter{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .footerTop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-top: 24px;
+    }
+
+    .socialMedia{
+        width: 30%;
+    }
+
+    .socialMedia img{
+        height: 24px;
+        width: 24px;
+    }
+
+    .linkFooter {
+        display: none;
+
+    }
+
+    .contactInfo{
+        width: 60%;
+        display: flex;
+    }
+
+    .contactInfo p{
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+
+    }
+
+    .contactInfo span{
+        font-size: 16px;
+        display: flex;
+    }
+
+    .footerBottom{
+        display: block;
+    }
+
+    .copyright{
+        width: 100%;
+        padding-bottom: 8px;
+    }
+
+    .policy ul{
+        display: block;
+    }
+
+    .policy li{
+        padding-bottom: 8px;
+    }
+
+
+
+
+
+    }
